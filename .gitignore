@@ -102,8 +102,7 @@ logs/
 *.sqlite3
 
 # Data files (uncomment if you don't want to track data)
-# data/raw-data/
-# data/parsed-data/
+data/
 
 # Docker
 *.pid
