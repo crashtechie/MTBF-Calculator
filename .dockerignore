@@ -1,0 +1,27 @@
+# Ignore version control
+.git
+.gitignore
+
+# Ignore Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints
+
+# Ignore environment files
+.env
+.venv
+env/
+venv/
+
+# Ignore documentation
+*.md
+!README.md
+
+# Ignore data directories (they'll be mounted as volumes)
+data/
+notebooks/
