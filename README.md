@@ -1,6 +1,6 @@
 # MTBF Calculator
 
-**Version:** 0.1.0
+**Version:** 0.1.1
 
 A data analysis tool for calculating Mean Time Between Failures (MTBF) metrics using Python and Jupyter Lab. This project provides a containerized environment for analyzing equipment failure data, computing reliability metrics, and visualizing trends.
 
@@ -117,7 +117,7 @@ Contributions are welcome! Please refer to the CHANGELOG.md for version history 
 
 ## License
 
-[Specify your license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Version History
 
