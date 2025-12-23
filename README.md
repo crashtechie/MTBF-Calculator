@@ -1,8 +1,8 @@
 # MTBF Calculator
 
-**Version:** 0.1.1
+**Version:** 0.2.0
 
-A data analysis tool for calculating Mean Time Between Failures (MTBF) metrics using Python and Jupyter Lab. This project provides a containerized environment for analyzing equipment failure data, computing reliability metrics, and visualizing trends.
+A data analysis tool for calculating Mean Time Between Failures (MTBF) metrics using Python and Jupyter Lab. This project provides a containerized environment for analyzing equipment failure data, computing reliability metrics, and visualizing trends across fiscal periods.
 
 ## Purpose
 
@@ -17,8 +17,12 @@ The MTBF Calculator is designed to help engineers and reliability analysts:
 
 - **Containerized Development**: Docker-based Jupyter Lab environment for consistent setup across systems
 - **Data Processing**: Tools for parsing and analyzing raw failure data
+- **Fiscal Calendar Management**: Automatic generation of fiscal years, weeks, months, and quarters
+- **MTBF Calculations**: Calculate Mean Time Between Failures for any time period
+- **Trend Analysis**: Compare MTBF metrics across different fiscal periods
 - **Statistical Analysis**: Built-in support for pandas, numpy for robust calculations
 - **Visualization**: matplotlib and seaborn for creating insightful charts
+- **Data Export**: Save processed data and fiscal calendars to CSV
 - **Persistent Storage**: Volume mounting for notebooks and data preservation
 - **Environment Configuration**: Flexible setup through .env files
 
