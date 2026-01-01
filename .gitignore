@@ -104,8 +104,9 @@ logs/
 # Data files (uncomment if you don't want to track data)
 data/
 notebooks/parser.ipynb
+wgu_mtbfCalc*.ipynb
 
-# Docker
+# Docker  
 *.pid
 *.seed
 *.pid.lock
